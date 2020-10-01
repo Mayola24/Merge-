@@ -9,7 +9,7 @@ class MergeSort
 		int j=mid+1;
 		int k=low;
 		int[] resarray=new int[max];
-		if(i<=mid&&j<=high)
+		while(i<=mid&&j<=high)
 		{
 			if(array[i]<array[j])
 			{
