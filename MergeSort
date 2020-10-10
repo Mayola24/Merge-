@@ -9,6 +9,7 @@ class MergeSort
 		int j=mid+1;
 		int k=low;
 		int[] resarray=new int[max];
+
 		while(i<=mid&&j<=high)   //for loop cannot be used 
 
 		{
