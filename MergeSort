@@ -10,6 +10,7 @@ class MergeSort
 		int k=low;
 		int[] resarray=new int[max];
 		while(i<=mid&&j<=high)   //for loop cannot be used 
+
 		{
 			if(array[i]<array[j])
 			{
