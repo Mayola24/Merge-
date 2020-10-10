@@ -9,7 +9,8 @@ class MergeSort
 		int j=mid+1;
 		int k=low;
 		int[] resarray=new int[max];
-		while(i<=mid&&j<=high)
+		while(i<=mid&&j<=high)   //for loop cannot be used 
+
 		{
 			if(array[i]<array[j])
 			{
@@ -33,7 +34,7 @@ class MergeSort
 	}
 	void mergeSort( int[] array,int low,int high)
 	{
-		if(low<high)
+		if(low<high)                 //if low is less than high
 		{
 			int mid=(low+high)/2;
 			mergeSort(array,low,mid);
@@ -89,4 +90,5 @@ generate random numbers\nEnter your choice:");
 System.out.println("\n\nThe time taken to sort elements by merge sort method is "+(end-start)+" nano seconds");
 	}
 }
+//prgrm ends
 
